@@ -2,7 +2,8 @@
 public class JAVAファイル {
 
 	public static void main(String[] args) {
-		System.out.println("例外が\r\n発生しました。");
+		String abc = "山田";
+		System.out.println(abc+"さん");
 	}
 
 }
