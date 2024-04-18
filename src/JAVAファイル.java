@@ -2,16 +2,9 @@
 public class JAVAファイル {
 
 	public static void main(String[] args) {
-		String a = "青";
-		switch(a) {
-		case "赤":
-			System.out.println("赤組です");
-			break;
-		case "白":
-			System.out.println("白組です");
-			break;
-		default:
-			System.out.println("エラーです");
+		for(int i = 0; i <= 5; i++) {
+			String b = i%2 == 0?"☆":"★";
+			System.out.println(b);
 		}
 	}
 }
